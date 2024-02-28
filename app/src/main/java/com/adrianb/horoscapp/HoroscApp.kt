@@ -6,3 +6,5 @@ import dagger.hilt.android.HiltAndroidApp
 @HiltAndroidApp
 class HoroscApp: Application() {
 }
+
+//comentario prueba
