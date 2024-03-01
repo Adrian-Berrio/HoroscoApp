@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -44,6 +45,7 @@ android {
 
 dependencies {
 
+    implementation("androidx.activity:activity:1.8.0")
     val navVersion = "2.7.7"
 
     //NavComponent
